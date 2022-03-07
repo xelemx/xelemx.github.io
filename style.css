@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+li {
+    display: inline-block;
+    width: 80px;
+    padding: 5px 0;
+    border: 1px dotted black;
+}
+
+ul {
+    text-align: center;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: black;
+}
+
+h1, h2 { 
+    text-align: center;
+}
