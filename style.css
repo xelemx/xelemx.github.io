@@ -17,6 +17,10 @@ a:link, a:visited, a:hover, a:active {
     color: black;
 }
 
-h1, h2, p { 
+h1, h2, p, body { 
     text-align: center;
+}
+
+table {
+    border: 1px solid black;
 }
