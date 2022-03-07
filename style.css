@@ -21,6 +21,10 @@ h1, h2, p, body {
     text-align: center;
 }
 
-table {
+table, tr {
     border: 1px solid black;
+}
+
+table {
+    margin: 0 auto;
 }
