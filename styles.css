@@ -1,0 +1,110 @@
+/*****************************/
+/*****************************/
+/*** Global Configurations ***/
+/*****************************/
+/*****************************/
+
+/* Setting global configurations */
+* {
+    box-sizing: border-box;
+	font-family: 'Architects Daughter', cursive;
+}
+
+body {
+	background-color: lightblue;
+	text-align: center;
+}
+
+/*****************************/
+/*****************************/
+/* Navigation Configurations */
+/*****************************/
+/*****************************/
+
+/* Setting the navigation to the top-left */
+nav {
+	background-color: black;
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	font-size: 15px;
+}
+
+/* Setting the navigation links inline */
+li {
+	display: inline-block;
+	width: 100px;
+}
+
+/* Centering navigation links */
+ul {
+	padding: 1px;
+	margin: 0px;
+}
+
+/* Lowering down the main from the navigation above */
+main {
+	margin-top: 45px;
+}
+
+/* Configuration for the navigation links */
+.link {
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 5px 0px;
+}
+
+/* Configtuation for the hover effect on the navigation links */
+.link:hover {
+	color: black;
+	background-color: white;
+	transition: all 0.4s ease-in;
+}
+
+/*****************************/
+/*****************************/
+/**** Table Configuratons ****/
+/*****************************/
+/*****************************/
+
+table {
+	text-align: left;
+	margin: 0 auto;
+}
+
+table, td {
+	border: 1px solid black;
+	font-size: 15px;
+}
+
+thead {
+	font-weight: bold;
+}
+
+td {
+	padding: 5px;
+}
+
+/*****************************/
+/*****************************/
+/*** Buttons Configuratons ***/
+/*****************************/
+/*****************************/
+
+.twoD {
+	width: 150px;
+	height: 80px;
+	background-color: orange;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+.threeD {
+	width: 150px;
+	height: 80px;
+	background-color: red;
+	margin: 0 auto;
+	border-radius: 10px;
+}
